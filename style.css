@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  line-height: 1.15;
+  font-family: 1.6rem;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* h1,
+h2 {
+  margin: 0;
+} */
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 1rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  align-items: center;
+}
