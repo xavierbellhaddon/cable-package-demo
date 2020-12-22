@@ -15,19 +15,19 @@
             <h2>Package Options</h2>
           </legend>
           <div>
-            <input type="checkbox" class="package-option" name="landline" />
+            <input type="checkbox" class="package-option" name="landline" value="15" />
             <label>Include landline (+ $15)</label>
           </div>
           <div>
-            <input type="checkbox" class="package-option" name="basic" />
+            <input type="checkbox" class="package-option" name="basic" value="10" />
             <label>Basic cable (+ $10)</label>
           </div>
           <div>
-            <input type="checkbox" class="package-option" name="more-cable" />
+            <input type="checkbox" class="package-option" name="more-cable" value="90" />
             <label>More than basic cable (+ $90)</label>
           </div>
           <div>
-            <input type="checkbox" class="package-option" name="internet" />
+            <input type="checkbox" class="package-option" name="internet" value="20" />
             <label>
               Internet that works, sometimes, unless its windy (+ $20)</label
             >
@@ -35,7 +35,7 @@
         </fieldset>
       </form>
       <div>
-        <p>Your total: $0</p>
+        <p>Your total: $<span class="total">0</span></p>
       </div>
     </div>
 
